@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<title>JAPANESE_Resturant</title>
+<style type="text/css">
+
+img {
+ width:1000px; height:400px;
+ }
+
+h1,legend {
+font-family:Tahoma;
+color: red;
+font-weight: bold;
+}
+
+h5 {
+font-family:Dubai Light;
+font-size:15pt
+}
+
+p {
+font-family:Dubai Light;
+      font-size:15pt;
+}
+
+* {
+  color: gray;
+}
+</style>
+</head>
+
+<body> 
+<form action="html_form_action.asp" method="get">
+<fieldset>
+<form>
+<div>
+<h1>special Japanese lunch dishes</h1>
+<h5>OFFER THE FINEST JAPANESE CUISINE</h5><br> 
+<img src="JAPAN.jpeg">
+<p>All Branch work all week long <br>  Weekdays 12:30 PM - 11 PM <br>
+Weekends 12:30 PM- 12 AM 
+</p></div>
+
+<div>
+<fieldset><legend>Order Information </legend>
+<form> 
+Customer Name <br> 
+<input type="text" name="name"> <br><br>
+<input type="radio" name="Dine Here" value="Dine Here" >Dine Here<br>
+<input type="radio" name="Take away"  value="Take away" >Take awa<br>
+</fieldset>
+</div>
+
+<div>
+<fieldset><legend> MENU FAVOURITES </legend>
+<b>Sushi</b><br>
+<input type ="radio" name="sushi" value="Sushi">Sultan  45.00 RS<br>
+<input type ="radio" name="sushi" value="Sushi">Shrimp Blast 40.00 RS <br>
+<input type ="radio" name="sushi" value="Sushi">Crispy Special CRAB 36.00 RS <br>
+<b>Soup</b><br>
+<input type ="radio" name="Soup" value="Soup">Creamy Seafood Soup 40.00 RS <br>
+<input type ="radio" name="Soup" value="Soup">Miso Soup 48.00 RS <br>
+<b> Salads</b><br>
+<input type ="radio" name="Salads" value="Salads">Crispy Crab Salad 55.00 RS <br>
+<input type ="radio" name="Salads" value="Salads">Crispy Tempura Salad 39.00 RS <br>
+<b>Rice & Noodles</b><br>
+<input type ="radio" name="Noodles" value="Noodles">Beef Ramen 56.00 RS <br>
+<input type ="radio" name="Rice" value="Rice">Eggs & Vegetables Fried Rice 29.00 RS <br>
+<br><hr>
+<input type ="checkbox" name="n" value="n">Sushi Well Done<br>
+</fieldset>
+</div>
+
+
+
+<div>
+<fieldset><legend> DESSERT</legend>
+<b>Dessert</b><br>
+<input type ="radio" name="Dessert" value="Dessert">Chocolate Fondant 49.00 RS <br>
+<input type ="radio" name="Dessert" value="Dessert1">Matcha Creame Brulee 55.00 RS <br>
+</fieldset>
+</div>
+
+<div>
+<fieldset><legend>SIDE DISHES</legend>
+<b>Side Dishes</b><br>
+<input type ="radio" name="SideDishes" value="SideDishes">Crispy Prawns Tacos 59.00 RS <br>
+<input type ="radio" name="SideDishes" value="SideDishes1">Prawns Tempura 65.00 RS <br>
+</fieldset>
+</div>
+
+<div>
+<fieldset><legend>DRINKS</legend> <label> <b>Drinks</b></label><br>
+<select name="Drink">
+<option value="Tokyo Berry Blast"> Tokyo Berry Blast 20.00 RS</option>
+<option value="Japanese Sunset">Japanese Sunset 20.00 RS</option>
+<option value="Classic Blue Lagoon">Classic Blue Lagoon 20.00 RS</option>
+<option value="Tokyo Berry Blast"> Tokyo Sky Tree 20.00 RS</option>
+</select>
+<hr>
+<input type ="checkbox" name="n" value="n">Large Size (7.00 RS Extra)
+</fieldset>
+</div>
+<br>
+
+<div>
+<input type="submit" value="Complete Order">
+</div>
+
+</form>
+</fieldset>
+</body>
+</html>
